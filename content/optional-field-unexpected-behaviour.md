@@ -31,8 +31,8 @@ matter whether the `image` instance referred to is deleted from the library.
 It does.
 
 When deleting anything, the default behaviour of any foreign keys 
-['emulates the behavior of the SQL constraint ON DELETE 
-CASCADE'](https://docs.djangoproject.com/en/1.8/ref/models/fields/#django.db.models.ForeignKey.on_delete), 
+[emulates the behavior of the SQL constraint ON DELETE 
+CASCADE](https://docs.djangoproject.com/en/1.8/ref/models/fields/#django.db.models.ForeignKey.on_delete), 
 which is to say, even though an `image` exists in an instance of `Foo`, 
 and is optional, the fact that it has a foreign key relationship to the
 `FilerImageField` instance means that the `Foo` instance will, be default,
@@ -40,7 +40,7 @@ and is optional, the fact that it has a foreign key relationship to the
 
 To resolve this issue, in my case, I changed the `on_delete` attribute for my
 `image` field to set the value of `image` to be
-[`NULL`](https://docs.djangoproject.com/en/1.8/ref/models/fields/#django.db.models.SET_NULL) in the event that the 
+[NULL](https://docs.djangoproject.com/en/1.8/ref/models/fields/#django.db.models.SET_NULL) in the event that the 
 connected `FilerFieldImage` field were deleted.
 
 The code therefore was rewritten to look as follows:
