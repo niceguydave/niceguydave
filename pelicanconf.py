@@ -39,3 +39,5 @@ GOOGLE_ANALYTICS = 'UA-12339594-2'
 SOCIAL = (('twitter', 'https://twitter.com/niceguydave'),
           ('lastfm', 'http://www.last.fm/user/squij'),
           ('github', 'https://github.com/niceguydave'),)
+
+STATIC_PATHS = ['images']
