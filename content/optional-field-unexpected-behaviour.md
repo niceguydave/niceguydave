@@ -15,7 +15,7 @@ FilerImageField [http://django-filer.readthedocs.org/en/latest/usage.html#filerf
 
 A simplification of my model is as follows:
 
-[code language="python"]  
+```
 from filer.fields.image import FilerImageField
 ...
 
@@ -24,7 +24,7 @@ class Foo(models.Model):
     image = FilerImageField(null=True, blank=True,
                             help_text='Image should be at least 200 x 100px.')
 
-[/code]
+```
 
 My initial thoughts on this were, "it's an optional field so it shouldn't 
 matter whether the `image` instance referred to is deleted from the library.
@@ -46,7 +46,7 @@ in the event that the connected `FilerFieldImage` field were deleted.
 
 The code therefore was rewritten to look as follows:
 
-[code language="python"]  
+```
 from filer.fields.image import FilerImageField
 ...
 
@@ -56,4 +56,4 @@ class Foo(models.Model):
                             help_text='Image should be at least 200 x 100px.',
                             on_delete=models.SET_NULL)
 
-[/code]
+```

@@ -44,20 +44,19 @@ within my `settings.py` file and gives a minimal working solution which
 allows misspelled words to be highlighted within the text editor and
 which doesn't force me to install any additional spell checking plugins:
 
-[code language="python"]  
+```
 CKEDITOR\_SETTINGS = {  
-'disableNativeSpellChecker': False,  
-'removePlugins': 'contextmenu,liststyle,tabletools',  
-'toolbar\_CMS': [  
-['Undo', 'Redo'],  
-['cmsplugins', '-', 'PasteText',],  
-['Format', 'NumberedList','BulletedList',],  
-['Bold', 'Italic', 'Underline', '-', 'RemoveFormat'],  
-['Source', 'ShowBlocks',]  
-],  
+    'disableNativeSpellChecker': False,  
+    'removePlugins': 'contextmenu,liststyle,tabletools',  
+    'toolbar\_CMS': [  
+        ['Undo', 'Redo'],  
+        ['cmsplugins', '-', 'PasteText',],  
+        ['Format', 'NumberedList','BulletedList',],  
+        ['Bold', 'Italic', 'Underline', '-', 'RemoveFormat'],  
+        ['Source', 'ShowBlocks',]  
+    ],  
 }  
-[/code]
-
+```
 Some notes on what I've done here:
 
 1.  By default, [`disableNativeSpellChecker` is set to
