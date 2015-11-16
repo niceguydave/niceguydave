@@ -14,7 +14,7 @@ FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = False
-SITEURL = 'http://niceguydave.github.io'
+SITEURL = 'http://niceguydave.com'
 RELATIVE_URLS = False
 
 
