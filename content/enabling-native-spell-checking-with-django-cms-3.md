@@ -45,10 +45,10 @@ allows misspelled words to be highlighted within the text editor and
 which doesn't force me to install any additional spell checking plugins:
 
 ```
-CKEDITOR\_SETTINGS = {  
+CKEDITOR_SETTINGS = {  
     'disableNativeSpellChecker': False,  
     'removePlugins': 'contextmenu,liststyle,tabletools',  
-    'toolbar\_CMS': [  
+    'toolbar_CMS': [  
         ['Undo', 'Redo'],  
         ['cmsplugins', '-', 'PasteText',],  
         ['Format', 'NumberedList','BulletedList',],  
