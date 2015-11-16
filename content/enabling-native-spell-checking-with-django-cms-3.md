@@ -6,7 +6,7 @@ Tags: cms, django, django-cms
 Slug: enabling-native-spell-checking-with-django-cms-3
 
 We use Django-CMS extensively at the company I work for,
-[Pancentric](http://www.pancentric.com/ "Pancentric"). I was recently
+[Pancentric](http://www.pancentric.com/). I was recently
 given what, at first, seemed to be a fairly simple request: ensure that
 any misspelled words are highlighted within the default text editor.
 
@@ -18,10 +18,7 @@ The toolbar has a number of sensible defaults which can be seen in the
 image below.  Notice that, although the last three words are misspelled,
 there is no visual indication of this.
 
-[caption id="attachment\_136" align="alignnone" width="1008"][![Default
-CKEditor
-layout](http://niceguydave.files.wordpress.com/2014/09/toolbar_pre_config.png)](http://niceguydave.files.wordpress.com/2014/09/toolbar_pre_config.png)
-Default CKEditor layout[/caption]
+![Default CKEditor layout](images/django_cms_toolbar_pre_config.png)
 
 You'll notice that what I *don't* have here is either a spell-check
 button or the ability to see any misspelled words highlighted within the
@@ -73,8 +70,4 @@ The final appearance of the editor after the changes have been made is
 as below.  Notice the final three nonsense words highlighted as
 misspelled (I'm using Chrome ):
 
-[caption id="attachment\_135" align="alignnone" width="1008"][![CKEditor
-toolbar after configuring native browser spell
-checking](http://niceguydave.files.wordpress.com/2014/09/toolbar_post_config.png)](http://niceguydave.files.wordpress.com/2014/09/toolbar_post_config.png)
-CKEditor toolbar after configuring native browser spell
-checking[/caption]
+![CKEditor toolbar after configuring native browser spell checking](images/django_cms_toolbar_post_config.png)
