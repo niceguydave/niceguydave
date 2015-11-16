@@ -10,8 +10,7 @@ I'm responsible for - I wasn't expecting this to happen when writing the
 schema so I thought it worthwhile adding here in the event that it helps
 anyone else who may be in the same situation
 
-The scenario was adding an optional field to to a Django (
-FilerImageField [http://django-filer.readthedocs.org/en/latest/usage.html#filerfilefield-and-filerimagefield]).
+The scenario was adding an optional field to to a Django [FilerImageField](http://django-filer.readthedocs.org/en/latest/usage.html#filerfilefield-and-filerimagefield).
 
 A simplification of my model is as follows:
 
@@ -41,8 +40,8 @@ and is optional, the fact that it has a foreign key relationship to the
 
 To resolve this issue, in my case, I changed the `on_delete` attribute for my
 `image` field to set the value of `image` to be
-[`NULL` (https://docs.djangoproject.com/en/1.8/ref/models/fields/#django.db.models.SET_NULL)] 
-in the event that the connected `FilerFieldImage` field were deleted.
+[`NULL`](https://docs.djangoproject.com/en/1.8/ref/models/fields/#django.db.models.SET_NULL) in the event that the 
+connected `FilerFieldImage` field were deleted.
 
 The code therefore was rewritten to look as follows:
 
