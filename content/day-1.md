@@ -4,6 +4,7 @@ Author: niceguydave
 Category: Language
 Tags: anki, homework, Lang-8, lwt
 Slug: day-1
+Status: draft
 
 <div>
 Taking a cue from Clarence at [The Fine Apps](http://thefineapps.com/),

@@ -4,6 +4,7 @@ Author: niceguydave
 Category: Language
 Tags: anki, cartoons, grimm, lwt, märchen, review, srs, tv
 Slug: second-week-review
+Status: draft
 
 Another update from my last week learning German
 

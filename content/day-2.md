@@ -4,6 +4,7 @@ Author: niceguydave
 Category: Language
 Tags: anki, homework, lwt
 Slug: day-2
+Status: draft
 
 -   Finished translating ”[Was mich vom Glauben abhält, sind seine
     Reden](http://www.zeit.de/2011/41/Martenstein)“

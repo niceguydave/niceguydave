@@ -4,6 +4,7 @@ Author: niceguydave
 Category: Language
 Tags: anki, deutsche welle, lwt, srs
 Slug: first-week-review
+Status: draft
 
 I thought it would be helpful to give a bit of an update of what exactly
 I think I've achieved over the last week or so.

@@ -4,6 +4,7 @@ Author: niceguydave
 Category: Language
 Tags: deutsche welle, goethe, lwt, review
 Slug: fifth-week-review
+Status: draft
 
 It's been a difficult three weeks in terms of focussing on German.  My
 father died suddenly and unexpectedly.  This obviously
