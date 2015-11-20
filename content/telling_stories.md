@@ -13,7 +13,7 @@ Rumpelstilzchen in German .  She asked me to recount how the story went
 - it had been a while since she'd heard it.  So I tried to explain -
 this is when it all got very interesting.
 
-[![](http://lingoshmingo.files.wordpress.com/2011/11/rumpelstilzchen_b_n.jpg?w=300 "Rumpelstilzchen")](http://lingoshmingo.files.wordpress.com/2011/11/rumpelstilzchen_b_n.jpg)
+![Rumpelstilzchen](images/rumpelstilzchen_b_n.jpg)
 
 I realised that there are still *a lot* of basic grammatical phrases
 that I still can't use fluidly in such situations, an example being "so
