@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'David Talbot'
+# AUTHOR = u'David Talbot'
 SITENAME = u'David Talbot'
 SITEURL = 'http://niceguydave.com'
 
@@ -32,11 +32,16 @@ DEFAULT_PAGINATION = 20
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-THEME = 'pelican-theme-jesuislibre'
+THEME = 'pelican-theme-jesuisfree'
 
 GOOGLE_ANALYTICS = 'UA-12339594-2'
 SOCIAL = (('twitter', 'https://twitter.com/niceguydave'),
+          ('google+', 'https://plus.google.com/u/0/+DavidTalbot1974'),
           ('lastfm', 'http://www.last.fm/user/squij'),
           ('github', 'https://github.com/niceguydave'),)
 
 STATIC_PATHS = ['images']
+
+PLUGINS = [
+    'minification',
+]
