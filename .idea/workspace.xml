@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c80fb719-f602-4787-bbcc-8c487ea7b38a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/cactus" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ficunaria" afterDir="false" />
-    </list>
+    <list default="true" id="c80fb719-f602-4787-bbcc-8c487ea7b38a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
