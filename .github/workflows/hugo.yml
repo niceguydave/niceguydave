@@ -51,4 +51,4 @@ jobs:
                     hugo --minify
       - name: Hugo Deploy
         run: |
-                    hugo deploy --force
+                    hugo deploy --force --verbose
