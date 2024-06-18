@@ -1,0 +1,4 @@
+baseURL = 'https://niceguydave.com/'
+languageCode = 'en-gb'
+title = 'David Talbot'
+theme = 'ficunaria'
