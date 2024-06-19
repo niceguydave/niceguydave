@@ -1,4 +1,4 @@
-baseURL = "https://niceguydave.com/"
+baseURL = "//sandbox.niceguydave.com"
 languageCode = "en-gb"
 title = "David Talbot"
 theme = "ficunaria"
