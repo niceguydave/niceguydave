@@ -51,9 +51,4 @@ jobs:
                     hugo --minify
       - name: Hugo Deploy
         run: |
-                    hugo deploy --force --logLevel info
-
-      - name: Create Invalidation
-        run: |
-                    aws cloudfront create-invalidation --distribution-id ${{ env.AWS_DIST_ID }} --paths "/*"
-
+                    hugo deploy --force --maxDeletes -1 --invalidateCDN
