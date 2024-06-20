@@ -3,7 +3,11 @@ title = "David Talbot"
 theme = "cactus"
 languageCode = "en-gb"
 
+enableEmoji = true
+
 [params]
+
+description = "Hey, I'm David :wave: I like cycling, coffee and learning about foreigh cultures.  Sometimes, so much that I want to tell the rest of the world about it, which is why this site exists :wink:"
 
 colortheme = "dark" # dark, light, white, or classic
 
