@@ -13,6 +13,7 @@ env:
   AWS_REGION : eu-west-2
   AWS_ROLE_ARN : arn:aws:iam::084728389797:role/hugo-github-oidc-role
   HUGO_VERSION: 0.127.0
+  DIST_ID : E6J16RMWSRTCI
 
 # Set bash as the default shell
 defaults:
@@ -48,6 +49,9 @@ jobs:
           HUGO_ENV: production
         run: |
                     hugo --cleanDestinationDir --minify --logLevel info
-      - name: Hugo Deploy and invalidate CDN
+      - name: Hugo Deploy
         run: |
-                    hugo deploy --force --maxDeletes -1 --invalidateCDN --logLevel info
+                    hugo deploy --force --maxDeletes -1 --logLevel info
+      - name: Create Invalidation
+        run: |
+                    aws cloudfront create-invalidation --distribution-id ${{ env.DIST_ID }} --paths "/*"
