@@ -50,4 +50,4 @@ jobs:
                     hugo --cleanDestinationDir --minify --verbose
       - name: Hugo Deploy and invalidate CDN
         run: |
-                    hugo deploy --force --maxDeletes -1 --invalidateCDN
+                    hugo deploy --force --maxDeletes -1 --invalidateCDN --verbose
