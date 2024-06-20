@@ -31,7 +31,7 @@ jobs:
           submodules: recursive
       # Step 2 - AWS Authenticate
       - name: configure aws credentials
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: ${{ env.AWS_ROLE_ARN }}
           role-session-name: github-action
