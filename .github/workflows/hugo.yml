@@ -47,7 +47,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-                    hugo --cleanDestinationDir --minify
+                    hugo --cleanDestinationDir --minify --verbose
       - name: Hugo Deploy and invalidate CDN
         run: |
                     hugo deploy --force --maxDeletes -1 --invalidateCDN
