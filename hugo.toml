@@ -1,7 +1,36 @@
 baseURL = "//sandbox.niceguydave.com"
-languageCode = "en-gb"
 title = "David Talbot"
-theme = "ficunaria"
+theme = "cactus"
+languageCode = "en-gb"
+
+[params]
+
+colortheme = "dark" # dark, light, white, or classic
+
+mainSection = "posts"
+
+[[params.social]]
+name = "github"
+link = "https://github.com/niceguydave"
+
+[[params.social]]
+name = "linkedin"
+link = "https://www.linkedin.com/in/detalbot/"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
 
 [deployment]
 
