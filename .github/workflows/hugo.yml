@@ -26,7 +26,7 @@ jobs:
     steps:
       # Step 1 - Checkout Repo
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
       # Step 2 - AWS Authenticate
