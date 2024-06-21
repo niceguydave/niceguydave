@@ -48,7 +48,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-                    hugo server --buildDrafts --minify --logLevel info
+                    hugo --buildDrafts --minify --logLevel info
       - name: Hugo Deploy
         run: |
                     hugo deploy --force --maxDeletes -1 --logLevel info
