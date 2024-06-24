@@ -13,6 +13,8 @@ colortheme = "dark" # dark, light, white, or classic
 
 mainSection = "posts"
 
+mainSectionTitle = "Posts"
+
 [[params.social]]
 name = "github"
 link = "https://github.com/niceguydave"
@@ -21,20 +23,12 @@ link = "https://github.com/niceguydave"
 name = "linkedin"
 link = "https://www.linkedin.com/in/detalbot/"
 
+sectionPagesMenu = "main"
+
 [[menu.main]]
 name = "Home"
 url = "/"
 weight = 1
-
-[[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 2
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 3
 
 [deployment]
 
