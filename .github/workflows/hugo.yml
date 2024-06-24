@@ -1,4 +1,4 @@
-name: Deploy Hugo site to AWS (Sandbox)
+name: Deploy Hugo site to AWS
 
 on:
   push:
@@ -13,7 +13,7 @@ env:
   AWS_REGION : eu-west-2
   AWS_ROLE_ARN : arn:aws:iam::084728389797:role/hugo-github-oidc-role
   HUGO_VERSION: 0.127.0
-  DIST_ID : E6J16RMWSRTCI
+  DIST_ID : E3IO9WQZPI40R
 
 # Set bash as the default shell
 defaults:

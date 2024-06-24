@@ -1,4 +1,4 @@
-baseURL = "//sandbox.niceguydave.com"
+baseURL = "//niceguydave.com"
 title = "David Talbot"
 theme = "cactus"
 languageCode = "en-gb"
@@ -33,5 +33,5 @@ weight = 1
 [deployment]
 
 [[deployment.targets]]
-name = "sandbox"
-URL = "s3://sandbox.niceguydave.com?region=eu-west-2"
+name = "production"
+URL = "s3://niceguydave.com?region=eu-west-2"
