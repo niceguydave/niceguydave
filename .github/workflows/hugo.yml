@@ -2,7 +2,7 @@ name: Deploy Hugo site to AWS (Sandbox)
 
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
 
 permissions:
       id-token: write   # This is required for requesting the JWT
