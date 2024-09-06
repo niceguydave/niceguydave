@@ -11,9 +11,9 @@ permissions:
 # Define environment variables for simplicity
 env:
   AWS_REGION : eu-west-2
-  AWS_ROLE_ARN : arn:aws:iam::084728389797:role/hugo-github-oidc-role
+  AWS_ROLE_ARN : ${{ AWS_ROLE_ARN }}
   HUGO_VERSION: 0.127.0
-  DIST_ID : E3IO9WQZPI40R
+  DIST_ID : ${{ CF_DIST_ID }}
 
 # Set bash as the default shell
 defaults:
